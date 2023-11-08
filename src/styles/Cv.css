@@ -1,0 +1,54 @@
+*, *::before, *::after {
+  margin: 0;
+}
+
+.sheet {
+  margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sheet .name {
+  font-size: 1.5rem;
+}
+.sheet .email {
+  color: blue;
+}
+.sheet .otherPersonal {
+  font-size: 0.5rem;
+}
+.sheet .education {
+  margin-top: 10px;
+  width: 90%;
+}
+.sheet .education .eduItem {
+  padding: 0.3rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sheet .education .eduItem .school {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+.sheet .education .eduItem .years {
+  font-size: 0.7rem;
+  text-align: end;
+}
+.sheet .work {
+  margin-top: 10px;
+  width: 90%;
+}
+.sheet .work .workItem {
+  padding: 0.3rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.sheet .work .workItem .position {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+.sheet .work .workItem .years {
+  font-size: 0.7rem;
+  text-align: end;
+}/*# sourceMappingURL=Cv.css.map */
